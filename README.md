@@ -10,3 +10,6 @@ steps to follow
 6.- put a name for the folder where do you want to download the images
 7.- wait until finish
 NOTE: if u get an error like element is not on the webpage just re-run the program and it'll download fine, i don't know how to fix it maybe its like a block from the page
+
+link fot wget(windows):
+https://eternallybored.org/misc/wget/
