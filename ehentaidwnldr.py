@@ -34,7 +34,6 @@ for i in range(times):
         element.click()
         time.sleep(2)
         progress=actualnumber/times
-        #implement a progressbar with the variables times and actualnumber
         pbar = tqdm.tqdm(total=times)
         num=num+1
         print("Total progress: ")
