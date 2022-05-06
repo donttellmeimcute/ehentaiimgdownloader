@@ -10,7 +10,6 @@ import os
 import tqdm
 import time
 num=1
-#by killjoy
 wget="C:\gnu\wget.exe --no-check-certificate -o c:/nul "
 url=input("Introduce la url: ")
 folder = input("Introduce el nombre de la carpeta: ")
