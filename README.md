@@ -13,3 +13,6 @@ NOTE: if u get an error like element is not on the webpage just re-run the progr
 
 link for wget(windows):
 https://eternallybored.org/misc/wget/
+
+link for webdriver (chrome windows):
+https://chromedriver.chromium.org/downloads
