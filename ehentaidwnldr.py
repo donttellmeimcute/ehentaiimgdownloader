@@ -22,7 +22,6 @@ options.add_argument("headless")
 wd = webdriver.Chrome(executable_path="C:/Users/hendr/Desktop/chromedriver_win32/chromedriver.exe", chrome_options=options)
 wd.get(url)
 times=wd.find_element(By.XPATH, ('/html/body/div[1]/div[1]/div[1]/div/span[2]')).text
-
 times = int(times)
 for i in range(times):
         currurl= wd.current_url
