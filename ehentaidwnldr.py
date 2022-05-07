@@ -10,7 +10,7 @@ import os
 import tqdm
 import time
 num=1
-wget="C:\gnu\wget.exe --no-check-certificate -o c:/nul "
+wget="WGETLOCATION --no-check-certificate -o c:/nul "
 url=input("Introduce la url: ")
 folder = input("Introduce el nombre de la carpeta: ")
 os.system("mkdir "+folder)
@@ -19,7 +19,7 @@ os.chdir(folder)
 folder = folder + " "
 options = webdriver.ChromeOptions()
 options.add_argument("headless")
-wd = webdriver.Chrome(executable_path="C:/Users/hendr/Desktop/chromedriver_win32/chromedriver.exe", chrome_options=options)
+wd = webdriver.Chrome(executable_path="WEBDRIVERLOCATION", chrome_options=options)
 wd.get(url)
 times=wd.find_element(By.XPATH, ('/html/body/div[1]/div[1]/div[1]/div/span[2]')).text
 times = int(times)
